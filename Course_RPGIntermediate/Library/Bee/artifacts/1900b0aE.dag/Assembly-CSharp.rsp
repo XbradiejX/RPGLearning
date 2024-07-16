@@ -367,6 +367,9 @@
 "Assets/Scripts/Cinematics/CinematicTrigger.cs"
 "Assets/Scripts/Combat/CombatTarget.cs"
 "Assets/Scripts/Combat/Fighter.cs"
+"Assets/Scripts/Combat/Projectile.cs"
+"Assets/Scripts/Combat/Weapon.cs"
+"Assets/Scripts/Combat/WeaponPickup.cs"
 "Assets/Scripts/Control/AIController.cs"
 "Assets/Scripts/Control/PatrolPath.cs"
 "Assets/Scripts/Control/PlayerController.cs"
@@ -376,8 +379,13 @@
 "Assets/Scripts/Core/IAction.cs"
 "Assets/Scripts/Core/PersistentObjectSpawner.cs"
 "Assets/Scripts/Movement/Mover.cs"
+"Assets/Scripts/Saving/ISaveable.cs"
+"Assets/Scripts/Saving/SaveableEntity.cs"
+"Assets/Scripts/Saving/SavingSystem.cs"
+"Assets/Scripts/Saving/SerializableVector3.cs"
 "Assets/Scripts/SceneManagement/Fader.cs"
 "Assets/Scripts/SceneManagement/Portal.cs"
+"Assets/Scripts/SceneManagement/SavingWrapper.cs"
 -langversion:9.0
 
 /deterministic
